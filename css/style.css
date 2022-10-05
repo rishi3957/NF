@@ -418,7 +418,7 @@ a:hover {
      [ 04 Start Header ]
 -----------------------------------------------------------------*/
 .header {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 .header.video {
@@ -1668,7 +1668,7 @@ border: 2px solid #E7E7E7;}
 }
 
 .headerbtn{
-    order: 3;
+    order: 2;
     color: #fff;
 }
 
