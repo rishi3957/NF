@@ -12,6 +12,7 @@
   outline: none;
   list-style: none;
   word-wrap: break-word;
+  font-family: sans-serif !important;
 }
 
 body {
@@ -35,6 +36,11 @@ p {
 img {
   width: 100%;
   height: auto;
+}
+
+  
+img.tech_stack_logo {
+  max-width: 24px;
 }
 
 span, a {
@@ -1347,6 +1353,10 @@ footer p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.new icon {
+  display: flex; 
+  flex-direction: column;
+}
 
 /* ----------------------------------------------------------------
      [ End Footer ]
@@ -1443,6 +1453,9 @@ footer p {
   }
 }
 @media screen and (max-width: 767px) {
+  .section-padding {
+    padding: 40px 0;
+  }
   .mb-sm50 {
     margin-bottom: 50px;
   }
@@ -1646,7 +1659,7 @@ border: 2px solid #E7E7E7;}
     letter-spacing: 0;
 }
 
-.top-footer{ background-color: #E6E8EC; margin-top: 20px; }
+.top-footer{ background-color: #E6E8EC; /* margin-top: 20px; */ }
 
 .footer-ul{}
 .top-footer h5{
