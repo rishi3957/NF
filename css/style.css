@@ -1647,6 +1647,7 @@ border: 2px solid #E7E7E7;}
     line-height: 30px;
     border-radius: 50%;
     margin-right: 10px;
+        font-family: Font Awesome\ 5 Brands !important; 
 }
 
 .bottom-footer{
