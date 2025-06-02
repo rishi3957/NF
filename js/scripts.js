@@ -41,12 +41,12 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/frx.png');
 
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/frx.png');
         }
     });
 
